@@ -1,6 +1,6 @@
 import math
 import random
-
+#Функция, возвращающая случайное целое число из заданного диапазона (оба значения включительно)
 def getRandomPositiveInteger(a, b) :
   if a < 0 and b < 0 :
      print("NaN")
